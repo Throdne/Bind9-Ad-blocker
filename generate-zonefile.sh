@@ -5,6 +5,7 @@ set -e
 
 # display date
 date
+cd /var/lib/named
 
 # Set tempfiles
 # All_domains will contain all domains from all lists, but also duplicates and ones which are whitelisted
