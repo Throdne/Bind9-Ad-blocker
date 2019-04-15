@@ -60,6 +60,9 @@ cat $all_domains_uniq | sed -r 's/(.*)/zone "\1" {type master; file "\/var\/lib\
 cp $zonefile /var/lib/named/named.conf.blocked
 #cp $zonefile ./named.conf.blocked
 
+chown -R named:named /var/lib/named
+chmod a+r /var/lib/named/named.conf.blocked
+
 # Remove all tempfiles
 rm $all_domains $all_domains_uniq $zonefile StevenBlack-hosts
 
