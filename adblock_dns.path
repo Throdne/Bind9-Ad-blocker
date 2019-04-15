@@ -1,0 +1,7 @@
+[Unit]
+Wants=adblock_dns.service
+
+[Path]
+PathChanged="/etc/adblock_blacklist"
+PathChanged="/etc/adblock_whitelist"
+

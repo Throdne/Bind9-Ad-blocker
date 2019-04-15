@@ -16,8 +16,8 @@ zonefile=$(mktemp)
 
 # Define local black and white lists
 # Uncomment if you have no local files
-manual_blacklist="/root/blacklist"
-manual_whitelist="/root/whitelist"
+manual_blacklist="/etc/adblock_blacklist"
+manual_whitelist="/etc/adblock_whitelist"
 
 # StevenBlack GitHub Hosts
 # Uncomment ONE line containing the filter you want to apply

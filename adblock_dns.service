@@ -1,0 +1,7 @@
+[Unit]
+Description=Update named zones for ad- and malware- blocking
+
+[Service]
+Type=oneshot
+ExecStart=/var/lib/named/generate-zonefile.sh
+User=root
