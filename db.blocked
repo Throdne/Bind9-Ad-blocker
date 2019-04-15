@@ -1,0 +1,10 @@
+$TTL 24h
+
+@       IN SOA server.yourdomain.com. hostmaster.yourdomain.com. (
+               2019041500  86400  300  604800  3600 )
+
+@       IN      NS   server.yourdomain.com.
+@       IN      A    0.0.0.0
+*       IN      A    0.0.0.0
+@       IN      AAAA 0:0:0:0:0:0:0:0
+*       IN      AAAA 0:0:0:0:0:0:0:0
